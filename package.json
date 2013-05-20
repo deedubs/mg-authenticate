@@ -18,5 +18,8 @@
   ],
   "author": "Dan Williams <me@deedubs.com>",
   "license": "BSD",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "pwd": "0.0.2"
+  }
 }
