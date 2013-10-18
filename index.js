@@ -1,10 +1,10 @@
 var pwd = require('pwd');
 
-module.exports = function (schema) {
+module.exports = function (schema, options) {
   schema.add({
     __password: {
-      hash: {type: String, required: true},
-      salt: {type: String, required: true}
+      hash: {type: String, required: options.required},
+      salt: {type: String, required: options.required}
     }
   });
 
