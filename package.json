@@ -1,6 +1,6 @@
 {
   "name": "mg-authenticate",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Mongoose authentication plugin using pbkdf2",
   "main": " index.js",
   "scripts": {
