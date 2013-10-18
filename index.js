@@ -1,6 +1,17 @@
 var pwd = require('pwd');
 
 module.exports = function (schema, options) {
+
+  if (!options) {
+
+    options = {};
+  }
+
+  if ( options.required === undefined) {
+
+    options.required = false;
+  } 
+  
   schema.add({
     __password: {
       hash: {type: String, required: options.required},
